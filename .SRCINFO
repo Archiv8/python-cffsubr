@@ -1,0 +1,16 @@
+pkgbase = python-cffsubr
+	pkgdesc = _taStandalone CFF subroutinizer based on AFDKO tx_ta
+	pkgver = 0.2.9.post1
+	pkgrel = 1
+	url = https://github.com/adobe-type-tools/cffsubr
+	arch = x86_64
+	license = Apache
+	checkdepends = python-pytest
+	makedepends = python-setuptools-git-ls-files
+	makedepends = python-setuptools-scm
+	depends = python
+	depends = python-fonttools
+	source = https://files.pythonhosted.org/packages/source/c/cffsubr/cffsubr-0.2.9.post1.tar.gz
+	sha512sums = 8c83001010951990d4e0dcecd1820e0f469042518c63cf82b66425c383b640f525f253b10f16ad587e9492a9aed070715d776d909ab4e897c99a22a7678f38a7
+
+pkgname = python-cffsubr
